@@ -1,0 +1,19 @@
+/***
+*  Header
+***/
+header {
+    background-color: #2C3E50;
+}
+
+nav > ul {
+    height: 5.625rem;
+}
+
+nav > ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul a:hover {
+    color: #fff;
+}
