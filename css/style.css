@@ -1,4 +1,18 @@
 /***
+***  Commons
+***/
+hr.star-line {
+    width: 4.6875rem;
+    height: .1875rem;
+    color: #fff;
+    opacity: 1;
+}
+
+.star-ico {
+    color: #fff;
+}
+
+/***
 *  Header
 ***/
 header {
@@ -16,4 +30,22 @@ nav > ul a {
 
 nav > ul a:hover {
     color: #fff;
+}
+
+/***
+*  Main
+***/
+/*** Header image ***/
+main {
+    color: #fff;
+}
+
+.header-image {
+    background-color: #1ABC9C;
+}
+
+.debug .profile-photo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
