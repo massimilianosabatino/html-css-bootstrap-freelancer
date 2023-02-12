@@ -1,22 +1,38 @@
+:root {
+    --primary-color: #1ABC9C;
+    --secondary-color: #2C3E50;
+}
+
+/**** DEBUG ****/
+.debug .cc_profile-photo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+/**** /DEBUG ****/
+
+
+
 /***
 ***  Commons
 ***/
-hr.star-line {
+hr.cc_star-line {
     width: 4.6875rem;
     height: .1875rem;
-    color: #fff;
+    color: inherit;
     opacity: 1;
 }
 
-.star-ico {
-    color: #fff;
+.cc_star-ico {
+    color: inherit;
 }
+
 
 /***
 *  Header
 ***/
 header {
-    background-color: #2C3E50;
+    background-color: var(--secondary-color);
 }
 
 nav > ul {
@@ -40,12 +56,6 @@ main {
     color: #fff;
 }
 
-.header-image {
-    background-color: #1ABC9C;
-}
-
-.debug .profile-photo {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.cc_header-image {
+    background-color: var(--primary-color);
 }
