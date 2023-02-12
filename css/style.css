@@ -81,3 +81,18 @@ main {
 #contact {
     color: var(--secondary-color);
 }
+
+/***
+*  Footer
+***/
+footer{
+    background-color: var(--secondary-color);
+}
+
+#location {
+    background-color: #3A546D;
+}
+
+#copyright {
+    height: 6.875rem;
+}
