@@ -9,6 +9,13 @@
     height: 200px;
     background-color: red;
 }
+
+.debug #portfolio > .row > div > span {
+    display: block;
+    /* max-width: 490px; */
+    height: 357px;
+    background-color: coral;
+}
 /**** /DEBUG ****/
 
 
@@ -56,6 +63,21 @@ main {
     color: #fff;
 }
 
-.cc_header-image {
+#header-image {
     background-color: var(--primary-color);
+}
+
+/*** Portfolio ***/
+#portfolio {
+    color: var(--secondary-color);
+}
+
+/*** About ***/
+#about {
+    background-color: var(--primary-color);
+}
+
+/*** Contact ***/
+#contact {
+    color: var(--secondary-color);
 }
