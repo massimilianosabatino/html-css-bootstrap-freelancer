@@ -1,6 +1,7 @@
 /*** Colore elementi ***/
 :root {
     --star-separator-color: #fff;
+    --star-separator-color-2: #2C3E50;
 }
 
 .star-separator {
@@ -21,10 +22,19 @@
     border-radius: 2px;
 }
 
+.star-separator.color-2 > span::before {
+    content: '';
+    background-color: var(--star-separator-color-2);
+}
+
 /*** Elemento centrale - Gestito tramite Font Awesome ***/
 .star-separator > span > i {
     margin: 0 8px;
     color: var(--star-separator-color);
+}
+
+.star-separator.color-2 > span > i {
+    color: var(--star-separator-color-2);
 }
 
 /*** Linea destra ***/
@@ -34,4 +44,9 @@
     height: 2px;
     background-color: var(--star-separator-color);
     border-radius: 2px;
+}
+
+.star-separator.color-2 > span::after {
+    content: '';
+    background-color: var(--star-separator-color-2);
 }

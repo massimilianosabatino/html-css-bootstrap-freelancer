@@ -54,10 +54,17 @@ main {
     background-color: var(--primary-color);
 }
 
+.star-separator {
+    max-width: 40%;
+}
+
+
 /*** Portfolio ***/
 #portfolio {
     color: var(--secondary-color);
 }
+
+
 
 /*** About ***/
 #about {
