@@ -1,10 +1,11 @@
-:root {
-    --primary-color: #1ABC9C;
-    --secondary-color: #2C3E50;
-}
+@import 'variables.css';
+@import 'commons.css';
+@import 'component/star-separator.css';
 
 /**** DEBUG ****/
 .debug .cc_profile-photo {
+    display: block;
+    margin: 0 auto;
     width: 200px;
     height: 200px;
     background-color: red;
@@ -19,20 +20,6 @@
 /**** /DEBUG ****/
 
 
-
-/***
-***  Commons
-***/
-hr.cc_star-line {
-    width: 4.6875rem;
-    height: .1875rem;
-    color: inherit;
-    opacity: 1;
-}
-
-.cc_star-ico {
-    color: inherit;
-}
 
 
 /***

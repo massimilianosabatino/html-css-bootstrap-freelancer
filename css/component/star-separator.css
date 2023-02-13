@@ -1,0 +1,37 @@
+/*** Colore elementi ***/
+:root {
+    --star-separator-color: #fff;
+}
+
+.star-separator {
+    margin: 0 auto;
+}
+
+.star-separator > span {
+    display: flex;
+    align-items: center;
+}
+
+/*** Linea sinistra ***/
+.star-separator > span::before {
+    content: '';
+    flex: 1 1 0%;
+    height: 2px;
+    background-color: var(--star-separator-color);
+    border-radius: 2px;
+}
+
+/*** Elemento centrale - Gestito tramite Font Awesome ***/
+.star-separator > span > i {
+    margin: 0 8px;
+    color: var(--star-separator-color);
+}
+
+/*** Linea destra ***/
+.star-separator > span::after {
+    content: '';
+    flex: 1 1 0%;
+    height: 2px;
+    background-color: var(--star-separator-color);
+    border-radius: 2px;
+}
