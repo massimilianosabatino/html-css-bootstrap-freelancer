@@ -3,13 +3,13 @@
 @import 'component/star-separator.css';
 
 /**** DEBUG ****/
-.debug .cc_profile-photo {
+/* .debug .cc_profile-photo {
     display: block;
     margin: 0 auto;
     width: 200px;
     height: 200px;
     background-color: red;
-}
+} */
 
 .debug #portfolio > .row > div > span {
     display: block;
@@ -76,6 +76,10 @@ main {
 
 #header-image {
     background-color: var(--primary-color);
+}
+
+.cc_profile-photo {
+    max-width: 230px;
 }
 
 .star-separator {
