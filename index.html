@@ -106,15 +106,32 @@
                 <div class="row">
                     <div class="col col-lg-8 mx-auto">                 
                         <h2 class="text-center text-uppercase">Contact me</h2>
-                        <div class="star-separator color-2 mb-3">
+                        <div class="star-separator color-2 mt-4 mb-3">
                             <span><i class="fa-solid fa-star"></i></span>
                         </div>
                     </div>
                 </div>
                 <div class="row mx-5">
                     <div class="col">
-                        <span class="text-center d-block">FORM</span>
-                        <button type="button" class="btn btn-success d-block mx-auto">Send</button>
+                        <form action="get">
+                            <div class="mb-1"> 
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" name="nome">
+                            </div>
+                            <div class="mb-1">
+                                <label for="email" class="form-label">Email Addres</label>
+                                <input type="email" class="form-control border-0 border-bottom rounded-0" id="email" name="email" required>
+                            </div>
+                            <div class="mb-1">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control border-0 border-bottom rounded-0" id="phone" name="phone" pattern="[+0-9]{3}[0-9]{10}" placeholder="+393291231234" required>
+                            </div>
+                            <div class="mb-1">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-control border-0 border-bottom rounded-0" name="message" rows="4" cols="50"></textarea> 
+                            </div>
+                        <button type="submit" class="btn btn-success d-block mt-2">Send</button>
+                    </form>
                     </div>
                 </div>
             </div>
