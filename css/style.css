@@ -29,18 +29,42 @@ header {
     background-color: var(--secondary-color);
 }
 
-nav > ul {
-    height: 5.625rem;
+nav {
+    min-height: 5.625rem;
 }
 
-nav > ul a {
+/*** Personalizzazione logo ***/
+nav .navbar-brand {
     color: #fff;
-    text-decoration: none;
 }
 
-nav > ul a:hover {
+/*** Personalizzazione Hamburger menù ***/
+nav .navbar-nav .nav-link.active {
     color: #fff;
 }
+
+nav div .navbar-toggler {
+    --bs-navbar-toggler-border-color: #fff;
+}
+
+nav div .navbar-toggler:focus {
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) #fff;
+}
+
+nav div .navbar-toggler-icon {
+    background-color: white;
+    mask-image: url(--bs-navbar-toggler-icon-bg);
+    -webkit-mask-image: var(--bs-navbar-toggler-icon-bg);
+    filter: brightness(2);
+}
+
+/*** Personalizzazione Elementi dropdown ***/
+nav .navbar-nav {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
 
 /***
 *  Main
